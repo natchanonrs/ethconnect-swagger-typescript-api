@@ -1,0 +1,19 @@
+{{#Api}}
+import {Api as {{name}}} from './{{name}}'
+{{/Api}}
+
+export class Dap {
+    {{#Api}}
+    private {{apiname}}: {{name}}
+    {{/Api}}
+    constructor() {
+        {{#Api}}
+        this.{{apiname}} = new {{name}}({baseUrl:'{{baseURL}}/abis/{{id}}'})
+        {{/Api}}
+    }
+    {{#Api}}
+    {{name}}(): {{name}} {
+        return this.{{apiname}}
+    }
+    {{/Api}}
+}

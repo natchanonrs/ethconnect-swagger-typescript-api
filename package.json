@@ -1,0 +1,19 @@
+{
+  "name": "ethconnect-swagger-typescript-api",
+  "version": "1.0.8",
+  "description": "Create swagger client from deployed 'ethconnect' abis by 'swagger-typescript-api'",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "nr1st",
+  "license": "ISC",
+  "dependencies": {
+    "swagger-typescript-api": "^2.0.0"
+  },
+  "homepage": "",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "bin": "./index.js"
+}
