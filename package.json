@@ -11,9 +11,12 @@
   "dependencies": {
     "swagger-typescript-api": "^2.0.0"
   },
-  "homepage": "",
+  "homepage": "https://github.com/natchanonrs/ethconnect-swagger-typescript-api",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
-  "bin": "./index.js"
+  "bin": "./index.js",
+  "bugs": {
+    "url": "https://github.com/natchanonrs/ethconnect-swagger-typescript-api/issues"
+  }
 }
