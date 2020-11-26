@@ -18,7 +18,7 @@ const generate = async({baseURL, outputDir}) => {
     for (abi of res.data){
       res = await generateApi({
         name: abi.name+'.ts',
-        url: baseURL+abi.openapi,
+        url: abi.openapi,
         output: outputDir,
         templates: templatesDir,
         generateClient: true,
